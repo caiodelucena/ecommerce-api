@@ -1,0 +1,8 @@
+pt-BR:
+  activemodel:
+    errors:
+      models:
+        validator:
+          attributes:
+            date:
+              future_date: "Deve ser uma data futura"
