@@ -1,8 +1,5 @@
 pt-BR:
-  activemodel:
+  activerecord:
     errors:
-      models:
-        validator:
-          attributes:
-            date:
-              future_date: "Deve ser uma data futura"
+      messages:
+        future_date: "deve ser uma data futura"

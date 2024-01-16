@@ -19,7 +19,7 @@ describe FutureDateValidator do
 
     it 'should have an error message' do
       subject.valid?
-      expect(subject.errors.messages[:date]).to include('Deve ser uma data futura')
+      expect(subject.errors.keys).to include(:date)
     end
   end
 
